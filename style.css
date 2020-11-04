@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+}
+
+.bg {
+    background-image: linear-gradient(rgba(199, 190, 190, 0.5), rgba(199, 190, 190, 0.5)), url("registration.png");
+    height: 100vh;
+    overflow: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+
+.header {
+    width: 30%;
+    margin: 0px auto 0px;
+    color: white;
+    background: pink;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+form {
+    width: 30%;
+    margin: 0px auto;
+    border: 1px solid #B0C4DE;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 15px;
+    font-family: sans-serif;
+}
+
+.form-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.form-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    background: pink;
+    border: none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*table*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f1d3ea;
+}
+
+button {
+    background-color: rgb(236, 148, 178);
+    scroll-padding-inline-start: 5px;
+}
